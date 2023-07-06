@@ -1,2 +1,2 @@
-# aprendizado
-Aprejdendo e relembrando boas praticas e tecnologias de grande importancia para meu desenvolvimento profissonal!
+# Docker and Kubernetes
+This is my progress in my docker and kubernetes exercises
