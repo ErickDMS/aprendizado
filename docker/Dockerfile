@@ -1,7 +1,7 @@
-FROM python:3.10.6
+FROM ubuntu:latest
 
-ADD hello.py .
+RUN apt-get update && apt-get install python3 -y
 
-RUN apt-get update && apt-get upgrade -y
+COPY hello.py /opt/hello.py
 
-CMD ["python3", "./hello.py"]  
+CMD python3 /opt/hello.py
